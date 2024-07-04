@@ -2375,43 +2375,57 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 340px;
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 380px;
+				height: 460px;
 			}
 
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
+			width: 100%;
+			max-width: 100%;
+			height: 100%;
 		}
 
 		.image.right {
 			float: right;
-			margin: 0 0 1em 1.5em;
+			margin: 0 0 2em 0;
 			top: 0.25em;
+			width: 100%;
+			max-width: 100%;
+			height: 100%;
 		}
 
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 80%;
+			width: 100%;
+			max-width: 100%;
+			height: 100%;
 		}
 
 			.image.fit img {
-				width: 80%;
+				width: 100%;
+				max-width: 100%;
+				height: 220px;
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 80%;
+			width: 100%;
+			max-width: 100%;
+
 		}
 
 			.image.main img {
-				width: 80%;
+				width: 330px;
+
 			}
 
 /* List */
